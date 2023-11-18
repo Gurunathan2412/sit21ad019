@@ -514,12 +514,12 @@ p {
 
 @media (max-width: 768px) {
   .room.wrapper2::after {
-    top: -5%; /* Adjust the position for better mobile appearance */
+    top: -5%; 
   }
 
 
   .grid2 {
-    grid-template-columns: repeat(1, 1fr); /* Change to a single column layout for mobile */
+    grid-template-columns: repeat(1, 1fr); 
   }
 }
 
@@ -647,11 +647,12 @@ p {
 }
 @media (max-width: 768px) {
   .area img {
-    margin: 0; /* Remove the left margin for better mobile appearance */
+    margin: 0; 
+    width: 60%;
   }
 
   .area .content {
-    text-align: left; /* Align content to the left for mobile view */
+    text-align: left; 
   }
 }
 /*------------area------------*/
